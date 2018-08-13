@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+    <title>おみくじ</title>
+    <meta http-equiv="content-type"
+            content="text/html; charset=UTF-8">
+
+    <script src='dwr/interface/Kuji.js'></script>
+    <script src='dwr/engine.js'></script>
+    <script src='dwr/util.js'></script>
+
+    <script type="text/javascript">
+
+    	function sendName() {
+            var name = DWRUtil.getValue("name");
+            Kuji.divine(name, callback);
+        }
+        function callback(message) {
+            DWRUtil.setValue("message", message);
+        }
+
+    </script>
+    </head>
+
+    <body>
+        お名前
+        <input type="text" id="name">
+        <input type="button" value="占う"
+                onclick="sendName()" />
+        <p/>
+        運勢
+        <div id="message"></div>
+    </body>
+</html>

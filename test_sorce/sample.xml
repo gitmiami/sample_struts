@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<document>
+    <book id="10">
+        <title>AAA</title>
+        <price>1500</price>
+    </book>
+    <book id="20">
+        <title>BBB</title>
+        <price>1200</price>
+    </book>
+</document>

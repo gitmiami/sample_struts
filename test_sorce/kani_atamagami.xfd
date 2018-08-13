@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xfa generator="FF99V250_01"?>
+<jfxpf:XPF xmlns:jfxpf="http://www.xfa.com/schema/xml-package">
+<jfxpf:Package>
+<jfxpf:Resource Location="aqua00">
+<jfxpf:Link ContentType="application/x-jetform-cft"/>
+</jfxpf:Resource>
+<jfxpf:Resource Location="default.xml">
+<jfxpf:Content ContentType="text/xml" Location="default.xml">
+<xfa:Data xmlns:xfa="http://www.xfa.com/schema/xfa-data">
+<xfa:DataGroup>
+<aqua00>
+<?jetform ^Dat ^page Page1?>
+<kani_service>8YH1</kani_service>
+<kani_title_first>NTT&#12467;&#12511;&#12517;&#12491;&#12465;&#12540;&#12471;&#12519;&#12531;&#12474;&#12288;OCN&#12288;.Phone IP Centrex&#12288;&#22865;&#32004;&#30003;&#36796;&#26360;</kani_title_first>
+<kani_title_second></kani_title_second>
+<kani_aitai_flag>1</kani_aitai_flag>
+<kani_access_list_flag></kani_access_list_flag>
+<kani_gw_flag></kani_gw_flag>
+<kani_hanbai_flag>1</kani_hanbai_flag>
+<fc_contena_0>
+<Page1>
+<service>8YH1</service>
+<version>20080301</version>
+<sub_version>00</sub_version>
+<end_bit>1</end_bit>
+<kyoutsuu_bit>1</kyoutsuu_bit>
+<aqua>1</aqua>
+<moushikomi_no>000000123456789</moushikomi_no>
+<kanren_uketsuke_id></kanren_uketsuke_id>
+<project_id></project_id>
+<sub_project_id></sub_project_id>
+<moushikomi_yyyy>2009</moushikomi_yyyy>
+<moushikomi_mm>09</moushikomi_mm>
+<moushikomi_dd>08</moushikomi_dd>
+<kaitsuu_yyyy>2009</kaitsuu_yyyy>
+<kaitsuu_mm>10</kaitsuu_mm>
+<kaitsuu_dd>10</kaitsuu_dd>
+<kaisen_id>03-0123-4567</kaisen_id>
+<kei_name>&#65316;&#65332;&#65331;&#30906;&#35469;&#12487;&#12540;&#12479;&#65312;&#31777;&#26131;&#30003;&#36796;&#26360;&#65283;&#65297;</kei_name>
+<setsuba_jigyosyo></setsuba_jigyosyo>
+<rr_cisco_bit>0</rr_cisco_bit>
+<aitai_v>0</aitai_v>
+<access_kaisen_v></access_kaisen_v>
+<old_access_kaisen_v></old_access_kaisen_v>
+<old_access_kaisen_v_save></old_access_kaisen_v_save>
+<gw_access_v></gw_access_v>
+<gw_access_v_save></gw_access_v_save>
+<tokki_rr>&#65331;&#65327;&#65328;&#65315;&#65331;&#12486;&#12473;&#12488;&#12487;&#12540;&#12479;&#65288;&#65316;&#65332;&#65331;&#65289;</tokki_rr>
+<hanbai_pref_v>13</hanbai_pref_v>
+<dairiten_code>79100100</dairiten_code>
+<dairiten_name>&#36009;&#22770;&#12481;&#12515;&#12493;&#12523;&#21517;</dairiten_name>
+<taiou_name>&#12362;&#23458;&#27096;&#23550;&#24540;&#37096;&#38272;&#25285;&#24403;&#32773;&#65313;</taiou_name>
+<hanbai_code>A</hanbai_code>
+<taiou_code>99999999</taiou_code>
+<taiou_tel_1>03</taiou_tel_1>
+<taiou_tel_2>1111</taiou_tel_2>
+<taiou_tel_3>1111</taiou_tel_3>
+<taiou_fax_1>03</taiou_fax_1>
+<taiou_fax_2>2222</taiou_fax_2>
+<taiou_fax_3>2222</taiou_fax_3>
+<taiou_mail>y-kunita@dts.co.jp</taiou_mail>
+<nttcom_name>&#30003;&#36796;&#21463;&#20184;&#37096;&#38272;&#25285;&#24403;&#32773;&#65313;</nttcom_name>
+<nttcom_tel_1>03</nttcom_tel_1>
+<nttcom_tel_2>5555</nttcom_tel_2>
+<nttcom_tel_3>5555</nttcom_tel_3>
+<nttcom_fax_1>03</nttcom_fax_1>
+<nttcom_fax_2>6666</nttcom_fax_2>
+<nttcom_fax_3>6666</nttcom_fax_3>
+<nttcom_mail>moushikomitanto@dts.co.jp</nttcom_mail>
+<NICS_user_id></NICS_user_id>
+<NICS_shitei_no></NICS_shitei_no>
+<NICS_PJ_code></NICS_PJ_code>
+<moushikomi_date>20090908</moushikomi_date>
+<kaitsuu_date>20091010</kaitsuu_date>
+<taiou_tel>03-1111-1111</taiou_tel>
+<taiou_fax>03-2222-2222</taiou_fax>
+<nttcom_tel>03-5555-5555</nttcom_tel>
+<nttcom_fax>03-6666-6666</nttcom_fax>
+<gw_syubetsu></gw_syubetsu>
+<uketsuke_id></uketsuke_id>
+<daihyo_id></daihyo_id>
+<order_no></order_no>
+<order_no_2></order_no_2>
+</Page1>
+</fc_contena_0>
+</aqua00>
+</xfa:DataGroup>
+</xfa:Data>
+</jfxpf:Content>
+</jfxpf:Resource>
+</jfxpf:Package>
+</jfxpf:XPF>
