@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="MS932"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">
+<struts-config>
+
+    <!-- 1)データソースの設定 -->
+    <data-sources>
+        <!-- BasicDataSourceクラスを利用する -->
+        <data-source type="org.apache.commons.dbcp.BasicDataSource">
+            <!-- JDBCドライバクラス名の設定 -->
+            <set-property property="driverClassName" value="com.mysql.jdbc.Driver" />
+            <!-- JDBCの接続文字列の設定 -->
+            <set-property property="url" value="jdbc:mysql://localhost/struts?useUnicode=false&amp;characterEncoding=UTF8" />
+            <!-- MySQLのユーザIDの設定　-->
+            <set-property property="username" value="root" />
+            <!-- MySQLのパスワードの設定　-->
+            <set-property property="password" value="1028" />
+        </data-source>
+    </data-sources>
+
+    <form-beans>
+        <form-bean name="CatalogForm" type="org.apache.struts.action.DynaActionForm" >
+            <form-property name="offset" type="java.lang.Integer" />
+        </form-bean>
+        <form-bean name="CatalogDetailForm" type="org.apache.struts.action.DynaActionForm" >
+            <form-property name="id" type="java.lang.Integer" />
+        </form-bean>
+    </form-beans>
+
+    <action-mappings>
+        <action name="CatalogForm" path="/Catalog" type="action.CatalogShowAction">
+            <forward name="show" path="/view/catalog.jsp" />
+        </action>
+
+        <!-- 2)LookupDispatchActionを利用するための設定 -->
+        <action name="CatalogForm"  path="/CatalogPage" parameter="action" type="action.CatalogPageAction">
+            <forward name="show" path="/view/catalog.jsp" />
+        </action>
+
+        <action  name="CatalogDetailForm" path="/CatalogDetail" type="action.CatalogDetailShowAction">
+            <forward name="show" path="/view/catalogDetail.jsp" />
+        </action>
+
+    </action-mappings>
+    <message-resources parameter="ApplicationResources"/>
+</struts-config>
+

@@ -1,0 +1,5 @@
+#Wed Aug 03 17:30:54 JST 2016
+eclipse.preferences.version=1
+encoding//WEB-INF/src/ApplicationResource.properties=MS932
+encoding//WEB-INF/struts-config.xml=Shift_JIS
+encoding//view/VariousInput.jsp=MS932

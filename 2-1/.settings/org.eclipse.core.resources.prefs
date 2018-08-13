@@ -1,0 +1,6 @@
+#Mon Aug 25 15:57:41 JST 2014
+eclipse.preferences.version=1
+encoding//WEB-INF/src/ApplicationResources.properties=MS932
+encoding//WEB-INF/src/action/CatalogPageAction.java=MS932
+encoding//WEB-INF/src/action/CatalogShowAction.java=MS932
+encoding//WEB-INF/src/dao/CatalogDAO.java=MS932

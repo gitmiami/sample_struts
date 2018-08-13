@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts
+Configuration 1.2//EN" "http://jakarta.apache.org/struts/dtds/strutsconfig_
+1_2.dtd">
+<struts-config>
+	<form-beans>
+		<form-bean name="VariousInputForm"
+			type="action.form.VariousInputForm" />
+		</form-beans>
+
+		<action-mappings>
+			<action name="VariousInputForm" type="action.VariousInputAction"
+				path="/VariousInput" scope="request" >
+					<!-- 1）<html:cancel>の脆弱性によるExceptionの発生を抑制する
+					（Struts1.2.9）-->
+				<set-property property="cancellable" value="true"/>
+				<forward name="various" path="/view/result.jsp" />
+			</action>
+		</action-mappings>
+
+	<message-resources parameter="ApplicationResource" />
+</struts-config>
